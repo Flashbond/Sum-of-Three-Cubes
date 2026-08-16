@@ -1,8 +1,23 @@
-[Bb]in/
-[Oo]bj/
+# Build directories & outputs
+build/
+bin/
+obj/
+*.exe
+*.out
+*.o
+*.obj
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE / Editor files
 .vs/
-node_modules/
-node_modules*/
+.vscode/
+.idea/
 *.user
+
+# Logs
 *.log
-*.txt
